@@ -1,0 +1,119 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 980" role="img" aria-labelledby="title desc">
+  <title id="title">Specter legal intelligence platform</title>
+  <desc id="desc">A high-level architecture diagram showing how case files become trusted legal work through fact intelligence, research, drafting, and court-day workflows.</desc>
+  <defs>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="12" stdDeviation="18" flood-color="#10251d" flood-opacity=".12"/>
+    </filter>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto">
+      <path d="M0 0L10 5L0 10Z" fill="#b45136"/>
+    </marker>
+    <style>
+      .title{font:500 46px Georgia,serif;fill:#173b2e}
+      .subtitle{font:400 18px Arial,sans-serif;fill:#5b6e64;letter-spacing:.2px}
+      .eyebrow{font:700 12px Arial,sans-serif;fill:#b45136;letter-spacing:2.2px}
+      .stage{font:700 13px Arial,sans-serif;fill:#173b2e;letter-spacing:1.5px}
+      .head{font:500 25px Georgia,serif;fill:#173b2e}
+      .body{font:400 15px Arial,sans-serif;fill:#52665b}
+      .small{font:400 13px Arial,sans-serif;fill:#6a7a70}
+      .pill{font:600 13px Arial,sans-serif;fill:#285543}
+      .foundation{font:700 13px Arial,sans-serif;fill:#d9e8df;letter-spacing:1.2px}
+      .foundationBody{font:400 14px Arial,sans-serif;fill:#b8cec1}
+    </style>
+  </defs>
+
+  <rect width="1600" height="980" fill="#f6f4ee"/>
+  <path d="M0 0H1600V18H0Z" fill="#b45136"/>
+
+  <text x="800" y="88" text-anchor="middle" class="eyebrow">SPECTER · LEGAL INTELLIGENCE FOR PAKISTANI LAWYERS</text>
+  <text x="800" y="145" text-anchor="middle" class="title">From case files to confident legal work</text>
+  <text x="800" y="181" text-anchor="middle" class="subtitle">A matter-centric workspace that turns primary sources into facts, research, drafts, and court-day action.</text>
+
+  <!-- Main journey -->
+  <g filter="url(#shadow)">
+    <rect x="70" y="260" width="260" height="330" rx="18" fill="#ffffff" stroke="#d9e4dc" stroke-width="2"/>
+    <rect x="370" y="260" width="260" height="330" rx="18" fill="#e6f0e9" stroke="#c6ddd0" stroke-width="2"/>
+    <rect x="670" y="260" width="260" height="330" rx="18" fill="#ffffff" stroke="#d9e4dc" stroke-width="2"/>
+    <rect x="970" y="260" width="260" height="330" rx="18" fill="#e6f0e9" stroke="#c6ddd0" stroke-width="2"/>
+    <rect x="1270" y="260" width="260" height="330" rx="18" fill="#ffffff" stroke="#d9e4dc" stroke-width="2"/>
+  </g>
+
+  <!-- Connectors -->
+  <path d="M330 425H360" stroke="#b45136" stroke-width="3" marker-end="url(#arrow)"/>
+  <path d="M630 425H660" stroke="#b45136" stroke-width="3" marker-end="url(#arrow)"/>
+  <path d="M930 425H960" stroke="#b45136" stroke-width="3" marker-end="url(#arrow)"/>
+  <path d="M1230 425H1260" stroke="#b45136" stroke-width="3" marker-end="url(#arrow)"/>
+
+  <!-- Stage 1 -->
+  <text x="100" y="302" class="stage">01  BRING THE MATTER IN</text>
+  <text x="100" y="358" class="head">Case files</text>
+  <text x="100" y="393" class="body">FIRs, plaints, orders,</text>
+  <text x="100" y="416" class="body">evidence, and emails.</text>
+  <rect x="100" y="458" width="198" height="38" rx="19" fill="#f5e6df"/>
+  <text x="199" y="482" text-anchor="middle" class="pill">English · Urdu · Roman-Urdu</text>
+  <text x="100" y="535" class="small">Every page stays connected</text>
+  <text x="100" y="557" class="small">to its original source.</text>
+
+  <!-- Stage 2 -->
+  <text x="400" y="302" class="stage">02  UNDERSTAND</text>
+  <text x="400" y="358" class="head">Fact intelligence</text>
+  <text x="400" y="393" class="body">People, dates, events,</text>
+  <text x="400" y="416" class="body">chronology, and gaps.</text>
+  <rect x="400" y="458" width="198" height="38" rx="19" fill="#cfe3d6"/>
+  <text x="499" y="482" text-anchor="middle" class="pill">Page-level provenance</text>
+  <text x="400" y="535" class="small">The lawyer reviews, edits,</text>
+  <text x="400" y="557" class="small">and confirms what matters.</text>
+
+  <!-- Stage 3 -->
+  <text x="700" y="302" class="stage">03  FIND THE LAW</text>
+  <text x="700" y="358" class="head">Legal research</text>
+  <text x="700" y="393" class="body">Statutes, judgments,</text>
+  <text x="700" y="416" class="body">and reported caselaw.</text>
+  <rect x="700" y="458" width="198" height="38" rx="19" fill="#f5e6df"/>
+  <text x="799" y="482" text-anchor="middle" class="pill">Grounded citations</text>
+  <text x="700" y="535" class="small">Exact lookup when a section</text>
+  <text x="700" y="557" class="small">or case citation is named.</text>
+
+  <!-- Stage 4 -->
+  <text x="1000" y="302" class="stage">04  MOVE THE WORK FORWARD</text>
+  <text x="1000" y="358" class="head">Drafting</text>
+  <text x="1000" y="393" class="body">Bail applications, writs,</text>
+  <text x="1000" y="416" class="body">replies, and pleadings.</text>
+  <rect x="1000" y="458" width="198" height="38" rx="19" fill="#cfe3d6"/>
+  <text x="1099" y="482" text-anchor="middle" class="pill">Facts + verified law</text>
+  <text x="1000" y="535" class="small">Editable work product,</text>
+  <text x="1000" y="557" class="small">always reviewed by counsel.</text>
+
+  <!-- Stage 5 -->
+  <text x="1300" y="302" class="stage">05  STAY AHEAD</text>
+  <text x="1300" y="358" class="head">Court-day action</text>
+  <text x="1300" y="393" class="body">Hearings, cause lists,</text>
+  <text x="1300" y="416" class="body">and timely reminders.</text>
+  <rect x="1300" y="458" width="198" height="38" rx="19" fill="#f5e6df"/>
+  <text x="1399" y="482" text-anchor="middle" class="pill">One living matter</text>
+  <text x="1300" y="535" class="small">The workspace returns value</text>
+  <text x="1300" y="557" class="small">every day the court is open.</text>
+
+  <!-- Foundation -->
+  <rect x="70" y="680" width="1460" height="190" rx="20" fill="#173b2e"/>
+  <text x="110" y="724" class="foundation">THE TRUST LAYER UNDER EVERYTHING</text>
+  <line x1="110" y1="746" x2="1490" y2="746" stroke="#4c735f" stroke-width="1"/>
+  <g transform="translate(110 780)">
+    <circle cx="8" cy="-5" r="6" fill="#d98b70"/><text x="28" y="0" class="foundation">PRIMARY SOURCES</text>
+    <text x="28" y="25" class="foundationBody">Judgments and statutes, traceable to origin.</text>
+  </g>
+  <g transform="translate(470 780)">
+    <circle cx="8" cy="-5" r="6" fill="#d98b70"/><text x="28" y="0" class="foundation">SECURITY BY DESIGN</text>
+    <text x="28" y="25" class="foundationBody">Matter access, encryption, and audit trails.</text>
+  </g>
+  <g transform="translate(830 780)">
+    <circle cx="8" cy="-5" r="6" fill="#d98b70"/><text x="28" y="0" class="foundation">HUMAN REVIEW</text>
+    <text x="28" y="25" class="foundationBody">Lawyers confirm facts and review every draft.</text>
+  </g>
+  <g transform="translate(1190 780)">
+    <circle cx="8" cy="-5" r="6" fill="#d98b70"/><text x="28" y="0" class="foundation">MEASURED AI</text>
+    <text x="28" y="25" class="foundationBody">Evaluated retrieval, models, and releases.</text>
+  </g>
+
+  <text x="800" y="930" text-anchor="middle" class="small">A secure, modular platform built for lawyers, firms, and in-house legal teams.</text>
+</svg>
